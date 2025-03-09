@@ -14,3 +14,5 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql         # Persistência dos dados
     restart: always
+volumes:
+  db_data:
