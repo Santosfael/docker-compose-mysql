@@ -5,10 +5,10 @@ services:
     image: mysql:8.0
     container_name: mysql_container
     environment:
-      MYSQL_ROOT_PASSWORD: "senha_root"    # Senha do usuário root
-      MYSQL_DATABASE: "meu_banco"           # Banco de dados padrão a ser criado
-      MYSQL_USER: "usuario"                 # Usuário customizado
-      MYSQL_PASSWORD: "minha_senha"         # Senha do usuário customizado
+      MYSQL_ROOT_PASSWORD: "1234567"    # Senha do usuário root
+      MYSQL_DATABASE: "php-system"           # Banco de dados padrão a ser criado
+      MYSQL_USER: "user"                 # Usuário customizado
+      MYSQL_PASSWORD: "1234567"         # Senha do usuário customizado
     ports:
       - "3306:3306"
     volumes:
